@@ -26,6 +26,13 @@
     filter: grayscale(70%);
 }
 
+@media screen and (max-width: 767px) {
+    #main .carousel-inner img {
+        height: 50vh;
+    }
+    
+}
+
 #main .carousel-control-prev,
 #main .carousel-control-next {
     width: 5%;
